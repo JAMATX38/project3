@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+PROJECT 3: INVENTORY MANAGMENT APPLICATION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**<span style="text-decoration:underline;">MY TASK:</span>**
 
-## Available Scripts
+Develop a User Friendly inventory app that is soley based on functionality. This app will help small buisnesses maintain their inventory right out of the plam of their hand!
 
-In the project directory, you can run:
+**<span style="text-decoration:underline;">The Fresh Produce Industry can be Challenging
+</span>**
 
-### `npm start`
+The Constant concern of looming expiration dates, possible shortages or surpluses and ever changing regulations can make any Fresh industry extremely difficult to navigate. Having tools that properly manage financials and the many vendors you work with in your supply chain can be life saving!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Our Inventory Management Application is built to help you make smart decisions when it comes to your small businesses financial decisions.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As an employee I would like to add, adjust and update inventory on hand. Having real time inventory numbers available in the palm of my hand will increase productivity because I can build my “cart” list while on the sales floor. Having these numbers readily available will also help me to provide superior customer service.
 
-### `npm test`
+As a customer I would like to ask an employee about specific products that I am looking for and get an accurate answer. Sometime when I am shopping for package salads my favorite flavor is out of stock on the shelf. By the time I find an employee, they walk to the back, walk back and tell me yes or no I have already found an alternative. And almost always I never get a clear answer when I ask if they are expecting anymore to arrive anytime soon.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+This app was thought of and will be developed for the smaller Local Independent Farmers. Most POS systems these days have options for an Inventory management system BUT can be very costly. Creating a lightweight mobile friendly app will help the “little guy” compete with big brother!
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<span style="text-decoration:underline;">Acceptance Criteria</span>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Your group will use everything you’ve learned throughout this course to create a MERN stack single-page application that works with real-world data to solve a real-world challenge, with a focus on data and user demand. This project will provide you with the best opportunity to demonstrate your problem-solving skills, which employers will want to see during interviews. Once again, the user story and acceptance criteria will depend on the project that you create, but your project must fulfill the following requirements:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Use React for the front end.
 
-### `npm run eject`
+* Use GraphQL with a Node.js and Express.js server.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Use MongoDB and the Mongoose ODM for the database.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* Use queries and mutations for retrieving, adding, updating, and deleting data.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Be deployed using Heroku (with data).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+* Have a polished UI.
 
-## Learn More
+* Be responsive.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Be interactive (i.e., accept and respond to user input).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Include authentication (JWT).
 
-### Code Splitting
+* Protect sensitive API key information on the server.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+* Have a clean repository that meets quality coding standards (file structure, naming conventions, best practices for class and id naming conventions, indentation, high-quality comments, etc.).
 
-### Analyzing the Bundle Size
+* Have a high-quality README (with unique name, description, technologies used, screenshot, and link to deployed application).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### CSS Styling
 
-### Making a Progressive Web App
+Instead of using a CSS library like Bootstrap, consider one of the following suggestions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Look into the concept of CSS-in-JS, which abstracts CSS to the component level, using JavaScript to describe styles in a declarative and maintainable way. Some popular libraries include [styled-components](https://styled-components.com/) and [Emotion](https://emotion.sh/docs/introduction).
 
-### Advanced Configuration
+* Try using a component library, such as [Semantic UI](https://semantic-ui.com/), [Chakra UI](https://chakra-ui.com/), or [Ant Design](https://ant.design/).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Create all the CSS for your application just using CSS.
 
-### Deployment
+Ultimately, it doesn't matter which of these options you choose&mdash;it just needs to look professional and be mobile-friendly.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Payment Platform
 
-### `npm run build` fails to minify
+Consider integrating the Stripe payment platform. Even if you don’t create an e-commerce application, you could set up your site to accept charitable donations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Bonus
+
+Although this is not a requirement for your project, see if you can also implement functionality to meet the minimum requirements of a PWA:
+
+* Uses a web manifest
+
+* Uses a service worker for offline functionality
+
+* Is installable
+
+## Presentation Requirements
+
+Use this [project presentation template](https://docs.google.com/presentation/d/10QaO9KH8HtUXj__81ve0SZcpO5DbMbqqQr4iPpbwKks/edit?usp=sharing) to address the following:
+
+* Elevator pitch: a one minute description of your application
+
+* Concept: What is your user story? What was your motivation for development?
+
+* Process: What were the technologies used? How were tasks and roles broken down and assigned? What challenges did you encounter? What were your successes?
+
+* Demo: Show your stuff!
+
+* Directions for Future Development
+
+* Links to the deployed application and the GitHub repository. Use the [Guide to Deploy with Heroku and MongoDB Atlas](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas) on The Full-Stack Blog if you need a reminder on how to deploy to Heroku.
+
+**<span style="text-decoration:underline;"></span>**
+
+
+
+**<span style="text-decoration:underline;">Technologies Used</span>**
+
+MongoDB, JavaScript, Node, React, Express, Bootstrap
+
+NPM Packages- apollo-server-express": "^2.19.0",
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.6",
+    "graphql": "^14.6.0"
+    "@apollo/client": "^3.5.6",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",    
+    "graphql": "^14.6.0",
+    "jwt-decode": "^3.1.2",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.1",
+    "web-vitals": "^0.2.4",
+    "concurrently": "^5.1.0"
+
+**<span style="text-decoration:underline;">GitHub </span>**
+
+**JAMATX38**
+
+****
